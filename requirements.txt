@@ -1,5 +1,5 @@
 flask
 line-bot-sdk
-urllib
+urllib3
 flask_sqlalchemy
 gunicorn
