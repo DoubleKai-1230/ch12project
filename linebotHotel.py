@@ -15,7 +15,7 @@ from sqlalchemy import text  #new
 line_bot_api = LineBotApi('u9smp7rs6W5Juv5VLW8HUQaq+Y03/OsCDiFJWyDwFKJr3zIZBa4K/oT6qA/WK/u6Id3sdh5XtBTjyvCaNi0x85wjGTIfaauVXZlDMy1ZV9PwUbjY546Xu45Uwf0/daSKEgW0RhJPXmOKmkmVqL0rxQdB04t89/1O/w1cDnyilFU=')
 handler = WebhookHandler('275a8b595a13b2cee190df293c459508')
 # 定義 PostgreSQL 連線字串
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://harry:910615@127.0.0.1:5432/hotel'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://harry:hE5AZUHeDPOnsdnVaa0w31AV0gZUaCGc@dpg-cln80t8apebc73f66bb0-a/testdb_nzcs'
 db = SQLAlchemy(app)
 # 定義 LIFF ID
 liffid = '2001896264-kW1WYlD4'
